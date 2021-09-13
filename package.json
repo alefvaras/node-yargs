@@ -1,0 +1,22 @@
+{
+  "name": "basic",
+  "version": "0.0.1",
+  "description": "basic node",
+  "main": "app.js",
+  "scripts": {
+    "test": "",
+    "base3": "node app --base=3"
+  },
+  "keywords": [
+    "node-basic"
+  ],
+  "author": "Alejandro Fernanddez",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "yargs": "^17.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
