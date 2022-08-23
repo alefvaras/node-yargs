@@ -7,16 +7,18 @@ const crearTabla = async (base = 5, listar = false,hasta=10 ) => {
         console.log('====================================');
         console.log(`Tabla del ${base}`);
         let salida = '';
+        let consola = '';
 
         for (let i = 1; i <= hasta; i++) {
 
 
-            salida += `${colors.green(base)} ${colors.trap('x')} ${i} = ${i * base} \n`;
+            consola += `${colors.green(base)} ${colors.trap('x')} ${i} = ${i * base} \n`;
 
+            salida+=`${base} ${'x'} ${i} = ${i * base} \n`;
         }
         console.log(listar);
         if (listar) {
-            console.log(salida)
+            console.log(consola)
         }
 
         // fs.writeFile(`tabla-${base}.txt,`,salida,(err)=>{
